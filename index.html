@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero">
+    <div id="carousel" class="carousel">
+      <div class="carousel-item active">
+        <h2>Loading...</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>🎬 MOVIE FINDER</h1>
+
+    <div class="controls">
+      <form id="searchForm">
+        <select id="genreSelect">
+          <option value="">-- Kies een genre --</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Typ een filmnaam..." />
+        <button id="searchBtn" type="submit">🎥 Get Movies</button>
+      </form>
+      <button id="homeButton">Home</button>
+    </div>
+    
+    
+
+    <div id="results" class="movie-grid"></div>
+  </div>
+  <script src="script.js"></script>
+  <p class="made-by">Gemaakt door Jesper Rosier</p>
+  </body>
+  
+</html>
